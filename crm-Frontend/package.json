@@ -1,0 +1,39 @@
+{
+  "name": "crm-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest --environment jsdom"
+  },
+  "dependencies": {
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/vue": "^8.1.0",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.5.2",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/compiler-dom": "^3.5.22",
+    "@vue/compiler-sfc": "^3.5.22",
+    "@vue/test-utils": "^2.4.6",
+    "@vue/tsconfig": "^0.8.1",
+    "@vue/vue3-jest": "^29.2.6",
+    "axios": "^1.12.2",
+    "axios-mock-adapter": "^2.1.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^30.2.0",
+    "jsdom": "^27.0.0",
+    "ts-jest": "^29.4.4",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.6",
+    "vitest": "^3.2.4",
+    "vue": "^3.5.22",
+    "vue-tsc": "^3.0.7"
+  }
+}

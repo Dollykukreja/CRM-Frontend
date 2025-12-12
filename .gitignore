@@ -11,8 +11,8 @@ lerna-debug.log*
 /crm-Frontend/dist
 /crm-Frontend/dist-ssr
 /crm-Frontend/*.local
-
-/crm-frontend/.vs
+crm-Frontend/my-crm/.vscode
+/crm-Frontend/.vs
 
 # Editor directories and files
 .vscode/*

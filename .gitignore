@@ -1,0 +1,67 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node specific ignores for CRM-Frontend
+/crm-Frontend/node_modules
+/crm-Frontend/dist
+/crm-Frontend/dist-ssr
+/crm-Frontend/*.local
+
+/crm-frontend/.vs
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sw?
+
+# --------------------------------------------------
+# CRM-Backend (ASP.NET Web API) specific ignores
+# --------------------------------------------------
+# Visual Studio temporary files, build artifacts
+
+/.vs
+/CRM-Backend/bin/
+/CRM-Backend/obj/
+/CRM-Backend/.vs/
+/CRM-Backend/*.user
+/CRM-Backend/*.suo
+/CRM-Backend/*.cache
+/CRM-Backend/_PublishedWebSites/
+/CRM-Backend/TestResults/
+/crm-Frontend/.vscode
+
+# NuGet packages
+/CRM-Backend/*.nupkg
+/CRM-Backend/*.snupkg
+# Packages directory is less common with modern .NET but good to include if present
+/CRM-Backend/packages/
+
+# Database files
+# Ignore local SQL Server database files (MDF and LDF files)
+/CRM-Backend/*.mdf
+/CRM-Backend/*.ldf
+/CRM-Backend/*.sqlite
+/CRM-Backend/*.sqlite-journal
+
+# Environment secrets and configuration files (for security)
+# Use the .NET Secret Manager tool for development secrets instead of committing these
+/CRM-Backend/appsettings.Development.json
+/CRM-Backend/appsettings.Local.json
+/CRM-Backend/connections.config
+/CRM-Backend/.env
+/CRM-Backend/web.config.backup
+
+# Other miscellaneous files
+/CRM-Backend/ReSharper*.xml
+/CRM-Backend/BuildLog.htm
+/CRM-Backend/Thumbs.db
